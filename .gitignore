@@ -1,2 +1,30 @@
-# Ignore all files end with .db
+# Database files
 *.db
+
+# Build directories
+build/
+cmake-build-*/
+
+# Compiled objects and libraries
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+
+# Executables (common on this project)
+simple_db
+simple_db_tests
+tutorial
+
+# Generated logs and dumps
+*.log
+*.tmp
+
+# Editor / OS noise
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
